@@ -1,6 +1,3 @@
-# Epoch-OriginsMod-Server-Package 2.0
- Epoch 1.0.7.1 & Origins Mod 1.8.3 (Taviana 3.0)
-
 # Epoch-OriginsMod-Server-Package - Version 2.0
 
 ## Epoch 1.0.7.1 & Origins Mod 1.8.3 (Taviana 3.0)
@@ -126,3 +123,7 @@ seppo{at}posteo.de | No support for used mods! Send your Server-IP. I will visit
 ## Licences
 
 Note the respective licenses of the files from the other GitHub Repositories. Thx to at all publishers and [EpochModTeam](https://github.com/EpochModTeam/DayZ-Epoch)
+
+## _old_
+
+[Epoch 1.0.7](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package)
