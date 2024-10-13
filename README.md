@@ -53,10 +53,10 @@ This setting will be saved in the client "ArmA 2 Profile".
 
 3. Copy the following files into your "@OriginsMod/Addon" folder and replac the pbo-files:
 
-dayz_code.pbo
-dayz_code.pbo.DayZEpoch1071.bisign
-dayz_anim.pbo
-dayz_anim.pbo.DayZEpoch1071.bisign
+dayz_code.pbo, 
+dayz_code.pbo.DayZEpoch1071.bisign,
+dayz_anim.pbo,
+dayz_anim.pbo.DayZEpoch1071.bisign,
 
 4. Copy the Bikey-Key "OriginsMod.info_by_Hades_1.8.3.bikey" into your server key folder.
 
