@@ -1,0 +1,6 @@
+/*
+	DZAI Version Identifier File
+*/
+
+#define DZAI_TYPE "DZAI"
+#define DZAI_VERSION "2.2.6 Release Build 20211122"
