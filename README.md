@@ -3,9 +3,8 @@
 ## Epoch 1.0.7.1 & Origins Mod 1.8.3 (Taviana 3.0)
 
 - Tested with infiStar Admin Panel.
-- Without Bettleye-Filters. 
-
-- use only Whitelist or Server with Password. :-)
+- Without BattlEye filter. Edit BattlEye? No way!
+- My Server are only with Whitelist or Password. :-)
 
 Have FUN!
 
