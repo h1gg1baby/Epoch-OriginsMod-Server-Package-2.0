@@ -125,4 +125,4 @@ Note the respective licenses of the files from the other GitHub Repositories. Th
 
 ## _old_
 
-[Epoch 1.0.7](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package)
+[Epoch-OriginsMod-Server-Package - Version 1.0](https://github.com/h1gg1baby/Epoch-OriginsMod-Server-Package)
