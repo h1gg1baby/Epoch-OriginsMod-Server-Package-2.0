@@ -9,7 +9,7 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\servicepoints
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\milbasekameni.sqf";
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\bankTraders\banks.sqf";
 
-[] execVM "\z\addons\dayz_server\a2_infiSTAR\AH.sqf";
+//[] execVM "\z\addons\dayz_server\a2_infiSTAR\AH.sqf";
 
 #include "\z\addons\dayz_server\compile\server_toggle_debug.hpp"
 
