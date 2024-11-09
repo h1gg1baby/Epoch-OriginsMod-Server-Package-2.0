@@ -30,7 +30,7 @@ safe_zones | [GitHub repo](https://github.com/BigEgg17) | Used edited Version fr
 
 I added custom traders! Taviana-Zoo, Antonovka, Ilya, Shtangrad, Aliencamp, Sevastopol (Thx to Gorgy for Map Addons)
 
-## (WAI) Custom static events with rewards ;-)
+## (WAI) Custom static missions with rewards ;-)
 (dayz_server\WAI\static\default.sqf)
 
 1. Bandit Camp
