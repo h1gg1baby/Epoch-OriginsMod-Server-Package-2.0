@@ -4,7 +4,6 @@
 
 - Tested with infiStar Admin Panel.
 - Without BattlEye filter. Edit BattlEye? No way!
-- My Server are only with Whitelist or Password. :-)
 - Admintool "Epoch-Antihack-Admin-Tools" added. 
 
 Have FUN!
