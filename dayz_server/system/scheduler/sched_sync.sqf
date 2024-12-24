@@ -22,7 +22,7 @@ sched_sync = {
 	private ["_date","_hour","_minute"];
 	// RESYNC TIME ON ALL MACHINES EVERY 15 MINUTES
 	// Date format [Year,Month,Day of the month,Hour,Minute]
-
+    if (!isNil "AH_timeOverride") exitWith {objNull};
 	_date = ServerCurrentTime; // ServerCurrentTime is set at server start in sched_event and updated every 60 seconds.
 	_day = _date select 2;
 	_hour = _date select 3;

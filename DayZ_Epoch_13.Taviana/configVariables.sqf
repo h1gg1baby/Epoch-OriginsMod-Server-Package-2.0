@@ -127,7 +127,7 @@ if (isServer) then {
 	MaxMineVeins = 50; // Max number of random mine veins to spawn around the map
 	DZE_TRADER_SPAWNMODE = false; // Vehicles purchased at traders will be parachuted in
 	MaxDynamicDebris = 100; // Max number of random road blocks to spawn around the map
-	MaxVehicleLimit = 200; // Max number of random vehicles to spawn around the map
+	MaxVehicleLimit = 400; // Max number of random vehicles to spawn around the map
 	dayz_enableGhosting = false;
 	dayz_ghostTimer = 120;
 
@@ -181,7 +181,7 @@ if (!isDedicated) then {
 	DZE_selfTransfuse_Values = [12000,15,120]; // [blood amount, infection chance, cool-down (seconds)]
 	dayz_DamageMultiplier = 1; // Increases the damage to the player by zombie attacks	
 	DZE_BackpackAntiTheft = true; // Prevents accessing backpack gear of non-friendly players in trader cities
-	DZE_StaticConstructionCount = 0; // Number of animations required for building an object. Leaving set at zero will default to the construction count in the configs for each object.
+	DZE_StaticConstructionCount = 1; // Number of animations required for building an object. Leaving set at zero will default to the construction count in the configs for each object.
 	dayz_maxMaxWeaponHolders = 120; // Maximum number of loot piles that can spawn within 200 meters of a player.
 	dayz_temperature_override = false; // Set to true to disable all temperature changes.
 	dayz_nutritionValuesSystem = true; //true, Enables nutrition system, false, disables nutrition system.
@@ -399,7 +399,7 @@ if (!isDedicated) then {
 	} count DZE_modularConfig;
 
 	// Door Management
-	DZE_doorManagementMustBeClose = false; //Players must be within 10m of door to be added as a door friend.
+	DZE_doorManagementMustBeClose = true; //Players must be within 10m of door to be added as a door friend.
 	DZE_doorManagementAllowManualCode = true; //Allow unlocking doors by manually entering the combination. Setting false requires the use of eye scan for all doors.
 	DZE_doorManagementMaxFriends = 10; //Max friends allowed on a door. There is no character limit in the inventory field of the database, but lower values limit the max global setVariable size to improve performance.
 	DZE_doorManagementHarderPenalty = true; //Enforce an exponential wait on attempts between unlocking a door from a failed code.
@@ -549,7 +549,7 @@ if (!isDedicated) then {
 	};
 
 	// Garage Door Opener
-	DZE_GarageDoor_Opener = false;	// Enables the option to open Garage Doors from the inside of a vehicle.
+	DZE_GarageDoor_Opener = true;	// Enables the option to open Garage Doors from the inside of a vehicle.
 	
 	if (DZE_GarageDoor_Opener) then {
 		DZE_GarageDoors = ["CinderWallDoorLocked_DZ","Land_DZE_GarageWoodDoorLocked","Land_DZE_LargeWoodDoorLocked","WoodenGate_1_DZ","WoodenGate_2_DZ","WoodenGate_3_DZ","WoodenGate_4_DZ","Land_DZE_WoodGateLocked","CinderGateLocked_DZ","Land_DZE_WoodOpenTopGarageLocked","CinderGarageOpenTopLocked_DZ"];	//	Array of Garage Doors that can be opened.
@@ -557,7 +557,7 @@ if (!isDedicated) then {
 	};
 	
 	// Service Points for Refuel, Repair and Rearm
-	DZE_Service_Points = false;
+	DZE_Service_Points = true;
 	
 	if (DZE_Service_Points) then {
 		// Valid vehicle config classes as an example: "Air", "AllVehicles", "All", "APC", "Bicycle", "Car", "Helicopter", "Land", "Motorcycle", "Plane", "Ship", "Tank"

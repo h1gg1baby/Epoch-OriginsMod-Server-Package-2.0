@@ -9,9 +9,8 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\servicepoints
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\maps\milbasekameni.sqf";
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\bankTraders\banks.sqf";
 
-//[] execVM "\z\addons\dayz_server\a2_infiSTAR\AH.sqf";
-
 #include "\z\addons\dayz_server\compile\server_toggle_debug.hpp"
+#include "\z\addons\dayz_server\antihack\antihack.sqf"
 
 waitUntil {!isNil "bis_fnc_init"};
 
@@ -234,6 +233,6 @@ array_reduceSize = {
 // Precise base building 1.0.5
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\kk_functions.sqf";
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\eventHandlers\server_eventHandler.sqf";
-#include "mission_check.sqf"
+//#include "mission_check.sqf"
 #include "spawn_config.sqf"
 call compile preprocessFileLineNumbers "\z\addons\dayz_server\WAI\init.sqf";

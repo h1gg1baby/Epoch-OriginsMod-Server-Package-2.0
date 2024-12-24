@@ -3,12 +3,17 @@ private ["_messages","_timeout"];
 _messages = [
 	["DayZ Epoch", "Welcome "+(name player)],
 	["World", worldName],
-	["Teamspeak", "some TS info"],
-	["Website/Forums", "some website info"],
-	["Server Rules", "Duping, glitching or using any<br />exploit will result in a<br />permanent ban."],
-	["Server Rules", "No talking in side."],
-	["Server Rules", "Hackers will be banned permanently<br />Respect others"],
-	["News", "Some random new info!<br />Random news<br />"]
+	["@", "epoch@posteo.de"],
+	["WWW", "epoch.bplaced.net"],
+    ["INFO", "PRESS F3 FOR HIDING ORIGINS MENU!"],
+	["INFO", "The hiding will be saved in your profile"],
+	["?", "Do you want more slots?"], 
+	["?", "You want to keep the server alive?"],
+	["?", "Visit: epoch.bplaced.net"],    
+	["Server Rules", "PVE-Server! Respect others! Play fair!"],
+	["Restarts", "Every 6 Hours! Starting 0:00 AM CEST!"],
+	["Restarts", "Every 6 Hours! Starting 0:00 AM CEST!"],    
+	["Restarts", "Every 6 Hours! Starting 0:00 AM CEST!"]
 ];
  
 _timeout = 5;

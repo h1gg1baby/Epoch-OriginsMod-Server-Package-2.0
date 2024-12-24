@@ -36,3 +36,4 @@ diagHit = 1;
 //#include "\z\addons\dayz_code\Configs\CfgServerTrader\CfgServerTrader.hpp" // Normal traders
 #include "\z\addons\dayz_code\Configs\CfgServerTraderZSC\CfgServerTrader.hpp" // Single currency traders
 #include "spawn\dialogs.hpp"
+#include "antihack.hpp"

@@ -49,6 +49,7 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
 call compile preprocessFileLineNumbers "dayz_code\init\compiles.sqf";
 dayz_progressBarValue = 0.25;
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\mission\tavi.sqf"; //Add trader city objects locally on every machine early
+call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\mission\server_traders\tavi.sqf";
 call compile preprocessFileLineNumbers "scripts\deployAnything\init.sqf";
 initialized = true;
 
@@ -68,7 +69,7 @@ if (isServer) then {
 };
 
 if (!isDedicated) then {
-	call compile preprocessFileLineNumbers "\z\addons\dayz_code\system\mission\server_traders\tavi.sqf";
+
 
 	if (toLower worldName in ["chernarus","chernarus_winter"]) then {
 		execVM "\z\addons\dayz_code\system\mission\chernarus\hideGlitchObjects.sqf";
