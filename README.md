@@ -1,14 +1,17 @@
-# Epoch-OriginsMod-Server-Package - Version 2.0
+# Epoch-OriginsMod-Server-Package - Version 2.1
 
 ## Epoch 1.0.7.1 & Origins Mod 1.8.3 (Taviana 3.0)
 
 - Tested with infiStar Admin Panel.
 - Without BattlEye filter. Edit BattlEye? No way!
 - My Server are only with Whitelist or Password. :-)
+- Admintool "Epoch-Antihack-Admin-Tools" added. 
 
 Have FUN!
 
 ## Used mods:
+
+Epoch-Antihack-Admin-Tools - Compatible with DayZ Epoch 1.0.7 + | [GitHub repo](https://github.com/BigEgg17/Epoch-Antihack-Admin-Tools)
 
 DZAI 2.2.5 - AI Addon for Epoch 1.0.7+ | [GitHub repo](https://github.com/oiad/DZAI)
 
@@ -61,6 +64,8 @@ dayz_anim.pbo.DayZEpoch1071.bisign,
 4. Copy the Bikey-Key "OriginsMod.info_by_Hades_1.8.3.bikey" into your server key folder.
 
 5. Mod serversettings for start order: ca, @originsmod, @dayz_epoch, @dayz_epoch_server
+
+Optional 6. Basic configuration without boats: Edit "dynamic_vehicle.sqf" under "Epoch-OriginsMod-Server-Package-2.0\dayz_server". Delete "//" (Starts at line 210)
 
 ## infiStar
 
