@@ -64,7 +64,13 @@ dayz_anim.pbo.DayZEpoch1071.bisign,
 
 5. Mod serversettings for start order: ca, @originsmod, @dayz_epoch, @dayz_epoch_server
 
-Optional 6. Basic configuration without boats: Edit "dynamic_vehicle.sqf" under "Epoch-OriginsMod-Server-Package-2.0\dayz_server". Delete "//" (Starts at line 210)
+6. (Optional) Basic configuration without boats: Edit "dynamic_vehicle.sqf" under "Epoch-OriginsMod-Server-Package-2.0\dayz_server". Delete "//" (Starts at line 210)
+
+7. Epoch-Antihack-Admin-Tools
+
+7.1 Copy the files from "AdminTool_dll_ini.7z" to your Serverroot
+
+7.2 Edit the config.sqf in your Server.pbo in "\dayz_server\antihack\"
 
 ## infiStar
 
